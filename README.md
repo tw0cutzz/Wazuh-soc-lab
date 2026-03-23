@@ -131,7 +131,7 @@ This was a good lesson in alert investigation — not every alert means an actua
 ## Screenshots
 
 All screenshots are in the `screenshots/` folder including:
-- Wazuh dashboard with alerts firing
+- Wazuh dashboard with alerts
 - Custom rules file
 - Attack simulations running
 - Sysmon and Event Viewer confirmation

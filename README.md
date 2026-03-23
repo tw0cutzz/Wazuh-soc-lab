@@ -121,7 +121,7 @@ This was a good lesson in alert investigation — not every alert means an actua
 
 ## Future Improvements
 
-- Add Suricata for network-level detection (port scans are better detected at the network layer)
+- Add Suricata for network-level detection 
 - Integrate Active Directory logs
 - Set up Wazuh Active Response to automatically block attacking IPs
 - Run Atomic Red Team for full MITRE ATT&CK coverage

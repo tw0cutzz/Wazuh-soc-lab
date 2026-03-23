@@ -140,4 +140,4 @@ All screenshots are in the `screenshots/` folder including:
 
 ---
 
-*Built as a portfolio project while learning SOC analysis. All attacks were simulated in an isolated virtual lab environment.*
+Built as a portfolio project while learning SOC analysis. All attacks were simulated in an isolated virtual lab environment.

@@ -32,8 +32,6 @@ The Windows agent collects logs from the system and forwards them to the Wazuh s
 
 I configured the Windows agent to collect the following logs:
 
-| Log Source | What it captures |
-
 | Windows Security Logs | Logins, failed logins, privilege use |
 | Sysmon | Process creation, file events, network connections |
 | PowerShell Operational | PowerShell commands executed on the system |

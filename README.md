@@ -17,7 +17,7 @@ This is a beginner SOC analyst home lab project. I deployed a Wazuh SIEM system,
 
 **Machines:**
 - **Wazuh Server** - Ubuntu 24 Desktop (VirtualBox VM)
-- **Agent** — Windows 10 (VirtualBox VM)
+- **Agent** - Windows 10 (VirtualBox VM)
 
 **Tools installed on Windows 10:**
 - Wazuh Agent - ships logs to the Wazuh server
@@ -115,7 +115,7 @@ C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.445.713.0.exe
 
 After investigating, I identified this as a false positive caused by Windows Update downloading a Defender antimalware patch.
 
-This was a good lesson in alert investigation — not every alert means an actual attack.
+This was a good lesson in alert investigation - not every alert means an actual attack.
 
 ---
 

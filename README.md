@@ -16,12 +16,12 @@ This is a beginner SOC analyst home lab project. I deployed a Wazuh SIEM system,
 ## Lab Setup
 
 **Machines:**
-- **Wazuh Server** — Ubuntu 24 Desktop (VirtualBox VM)
+- **Wazuh Server** - Ubuntu 24 Desktop (VirtualBox VM)
 - **Agent** — Windows 10 (VirtualBox VM)
 
 **Tools installed on Windows 10:**
-- Wazuh Agent — ships logs to the Wazuh server
-- Sysmon (SwiftOnSecurity config) — enriches Windows logs with process, file and network events
+- Wazuh Agent - ships logs to the Wazuh server
+- Sysmon (SwiftOnSecurity config) - enriches Windows logs with process, file and network events
 
 **How they connect:**
 The Windows agent collects logs from the system and forwards them to the Wazuh server. The server analyses the logs against detection rules and fires alerts when something suspicious is found.
